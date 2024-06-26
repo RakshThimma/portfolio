@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Lora", serif;
+}
+
+.container {
+    padding:50px;
+}
+
+.detail {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.detail__contactpage {
+     background-color: orangered;
+     color: white;
+     text-decoration: none;
+     padding: 5px 10px 5px 10px;
+     display: inline-block;
+     margin-top: 10px;
+}
+
+.detail__name {
+    font-size: 50px;
+}
+
+.detail__desig {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.about, .interest , .projects, .contact {
+    margin-top: 20px;
+}
+
+.about__p, .interest__ul, .projects__ul, .contact__link, .contact__name {
+    margin-top: 10px;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.contact__link a {
+    color: aqua;
+}
+
+.interest li, .projects li {
+    list-style: none;
+}
+
+.interest {
+    background-color: rgb(123, 8, 230);
+    display: inline-block;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.projects {
+    background-color: orangered;
+    display: inline-block;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact_form {
+    margin-top: 20px;
+}
+
+.name__input, .email__input, .submit__input, .textarea__input {
+    margin-top: 10px;
+}
+
+.name__input , .email__input {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.textarea__input {
+    padding: 10px;
+    border: solid black 1px;
+}
+
+.submit__input {
+    background-color: orangered;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
